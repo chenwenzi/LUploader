@@ -68,7 +68,7 @@
     <script>
     [].slice.call(document.querySelectorAll('input[data-LUploader]')).forEach(function(el) {
         new LUploader(el, {
-            url: 'http://182.254.140.92/DancingAngel/lisihua/Qq_Cooperation/Qq_Cooperation/yii-advanced-app-2.0.6/frontend/web/index.php?r=yuanbao/verify/ajax-upload-pic',//post请求地址
+            url: '/imageUp.php',//post请求地址
             multiple: false,//是否一次上传多个文件 默认false
             maxsize: 102400,//忽略压缩操作的文件体积上限 默认100kb
             accept: 'image/*',//可上传的图片类型
